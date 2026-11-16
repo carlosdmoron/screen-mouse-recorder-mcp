@@ -1,0 +1,24 @@
+{
+  "name": "screen-mouse-recorder-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Standalone local MCP server for guided Chrome tutorials and recording.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosdmoron/screen-mouse-recorder-mcp.git"
+  },
+  "homepage": "https://screenmouserecorder.nexumaicore.com/mcp",
+  "scripts": {
+    "start": "node server/index.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/node": "^2.0.0",
+    "@modelcontextprotocol/server": "^2.0.0",
+    "playwright-core": "^1.65.0",
+    "zod": "^4.0.0"
+  }
+}
