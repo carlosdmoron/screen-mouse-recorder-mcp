@@ -1,7 +1,10 @@
 {
   "name": "screen-mouse-recorder-mcp",
   "version": "0.1.0",
-  "private": true,
+  "mcpName": "io.github.carlosdmoron/screen-mouse-recorder-mcp",
+  "publishConfig": { "access": "public" },
+  "private": false,
+  "license": "MIT",
   "type": "module",
   "description": "Standalone local MCP server for guided Chrome tutorials and recording.",
   "repository": {
